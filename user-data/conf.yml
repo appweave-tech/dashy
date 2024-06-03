@@ -9,6 +9,7 @@ pageInfo:
 appConfig:
   theme: colorful
   disableConfiguration: true
+  layout: vertical
 
 # Main content - An array of sections, each containing an array of items
 sections:
