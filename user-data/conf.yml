@@ -2,12 +2,13 @@
 # Page meta info, like heading, footer text and nav links
 pageInfo:
   title: AppWeave Labs
-  description: Welcome to your new dashboard!
-  logo: https://res.cloudinary.com/dren4jgbp/image/upload/v1714403852/Appweave/appweave-logo-dark.png
+  description: Weaving Innovation into Apps
+  logo: https://res.cloudinary.com/dren4jgbp/image/upload/v1714403852/Appweave/appweave-logo-light.png
 
 # Optional app settings and configuration
 appConfig:
   theme: colorful
+  disableConfiguration: true
 
 # Main content - An array of sections, each containing an array of items
 sections:
