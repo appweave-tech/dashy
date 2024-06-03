@@ -3,6 +3,7 @@
 pageInfo:
   title: AppWeave Labs
   description: Welcome to your new dashboard!
+  logo: https://res.cloudinary.com/dren4jgbp/image/upload/v1714403849/Appweave/appweave-banner-dark.png
 
 # Optional app settings and configuration
 appConfig:
