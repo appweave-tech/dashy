@@ -9,7 +9,7 @@ pageInfo:
 appConfig:
   theme: adventure-basic
   disableConfiguration: true
-  layout: vertical
+  layout: horizontal
   hideComponents:
     hideSearch: true
     hideSettings: true
@@ -22,33 +22,167 @@ appConfig:
 
 # Main content - An array of sections, each containing an array of items
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
-  items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
-    target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
-  
+  - name: Company Accounts
+    icon: fa fa-user-cog
+    items:
+      - title: Purely Email
+        description: Email Web Client
+        url: https://inbox.purelymail.com/
+        icon: favicon
+        target: newtab
+
+      - title: Zoho Email
+        description: Email Web Client
+        url: https://mail.zoho.com/
+        icon: favicon
+        target: newtab
+
+      - title: Brevo
+        description: Email Sending Platform
+        url: https://app.brevo.com/
+        icon: favicon
+        target: newtab
+
+      - title: Slack
+        description: Slack Workspace
+        url: https://appweavelabs.slack.com/
+        icon: favicon
+        target: newtab
+
+      - title: JIRA
+        description: JIRA Workspace
+        url: https://appweave.atlassian.net/jira/your-work
+        icon: https://cdn.worldvectorlogo.com/logos/jira-1.svg
+        target: newtab
+
+      - title: Orange HRM
+        description: HR Tool
+        url: https://appweave-osondemand.orangehrm.com/
+        icon: https://alchetron.com/cdn/orangehrm-5814bc22-9fe0-4ec3-a6df-a7a27fa964f-resize-750.png
+        target: newtab
+
+      - title: Osvauld
+        description: Password Manager
+        url: https://chromewebstore.google.com/detail/osvauld/jjlmehbdndojkfglfimhldnbpdhjphfi
+        icon: https://lh3.googleusercontent.com/34d4iKCcZeMx2UqQ0tjoInmO7udtmYfq-QJ11KxXC7ePgX5a3_cuJFAwIhqpBDrzow6Tej44JH4jMI0nusRFAynf=s60
+        target: newtab
+
+      - title: JotForms
+        description: JotForms Portal
+        url: https://www.jotform.com/
+        icon: favicon
+        target: newtab
+
+  - name: Design, Development and Deployment
+    icon: fa fa-code-branch
+    items:
+      - title: Figma
+        description: UI/UX tool 
+        url: https://www.figma.com/files/team/1370119807297205158
+        icon: favicon
+        target: newtab
+
+      - title: Canva
+        description: Design tool
+        url: https://www.canva.com
+        icon: favicon
+        target: newtab
+        
+      - title: GitHub
+        description: Source Code, Issues and Pull Requests
+        url: https://github.com/appweave-tech
+        icon: favicon
+
+      - title: Oracle Cloud 1
+        description: Aditya Tenant
+        icon: favicon
+        url: https://cloud.oracle.com/?region=ap-mumbai-1&tenant=kumaraditya13
+        target: newtab
+
+      - title: Oracle Cloud 2
+        description: Saurabh Tenant
+        icon: favicon
+        url: https://cloud.oracle.com/?region=ap-hyderabad-1&tenant=saurabh73
+        target: newtab
+
+      - title: Netlify
+        description: Deployment with Netlify Account
+        url: https://app.netlify.com
+        icon: favicon
+
+      - title: Render
+        description: Deployment With Render
+        url: https://dashboard.render.com/
+        icon: favicon
+
+      - title: Railway
+        description: Deployment With Railawy
+        url: https://railway.app/dashboard
+        icon: favicon
+
+  - name: SEO & Marketing Tools
+    icon: fa fa-chart-line
+    items:
+      - title: Meta Tools
+        description: Meta Business Tools Dashboard
+        url: https://business.facebook.com/
+        icon: favicon
+
+      - title: Merchants
+        description: Google Merchants Dashboard
+        icon: favicon
+        url: https://cdn.worldvectorlogo.com/logos/google-merchant-center.svg
+        target: newtab
+
+      - title: Search
+        description: Google Search Console Dashboard
+        icon: https://cdn.worldvectorlogo.com/logos/google-search-console.svg
+        url: https://search.google.com/search-console?utm_source=about-page&resource_id=sc-domain:portablemonitor.in
+        target: newtab
+
+      - title: Analytics
+        description: Google Analytics Dashboard
+        url: https://analytics.google.com/analytics/web/#/a295936639p419325952/admin/streams/table/6448738436
+        icon: https://www.gstatic.com/analytics-suite/header/suite/v2/ic_analytics.svg
+
+      - title: Webmasters
+        description: Bing Webmasters Dashboard
+        url: https://www.bing.com/webmasters/about?siteUrl=https://portablemonitor.in/
+        icon: favicon
+
+      - title: SEMRush
+        description: SEM Rush Dashboard
+        url: https://www.semrush.com/login/
+        icon: favicon
+
+      - title: Mangools
+        description: Mangools Dashboard
+        icon: favicon
+        url: https://mangools.com/users/sign_in
+        target: newtab
+
+      - title: ahrefs
+        description: ahrefs Dashboard
+        icon: favicon
+        url: https://app.ahrefs.com/user/login
+        target: newtab
+
+      - title: MOZ
+        description: MOZ Dashboard
+        url: https://moz.com/login
+        icon: favicon
+
+  - name: Portable Monitor
+    icon: fa fa-desktop
+    items:
+      - title: Shopify
+        description: Admin portal for Portable Monitor Shopify
+        url: https://admin.shopify.com/store/portable-monitor-2
+        icon: https://logos-download.com/wp-content/uploads/2016/10/Shopify_logo_icon-670x700.png
+        target: newtab
+
+      - title: Odoo
+        description: Admin portal for Portable Monitor Odoo
+        url: https://www.odoo.com/web/login
+        icon: favicon
+        target: newtab
