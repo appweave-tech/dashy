@@ -7,9 +7,18 @@ pageInfo:
 
 # Optional app settings and configuration
 appConfig:
-  theme: colorful
+  theme: adventure-basic
   disableConfiguration: true
   layout: vertical
+  hideComponents:
+    hideSearch: true
+    hideSettings: true
+    hideFooter: true
+  webSearch:
+    disableWebSearch: true
+  preventWriteToDisk: true
+  preventLocalSave: true
+  disableContextMenu: true
 
 # Main content - An array of sections, each containing an array of items
 sections:
