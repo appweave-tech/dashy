@@ -73,6 +73,12 @@ sections:
         icon: favicon
         target: newtab
 
+      - title: Namecheap
+        description: Domain Management
+        url: https://www.namecheap.com/myaccount/login/
+        icon: favicon
+        target: newtab
+
   - name: Design, Development and Deployment
     icon: fa fa-code-branch
     items:
