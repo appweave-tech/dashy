@@ -55,6 +55,12 @@ sections:
         icon: https://cdn.worldvectorlogo.com/logos/jira-1.svg
         target: newtab
 
+      - title: Wrike
+        description: Wrike Workspace
+        url: https://www.wrike.com/
+        icon: favicon
+        target: newtab
+
       - title: Orange HRM
         description: HR Tool
         url: https://appweave-osondemand.orangehrm.com/
