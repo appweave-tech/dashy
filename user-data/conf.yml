@@ -142,6 +142,12 @@ sections:
         icon: favicon
         target: newtab
 
+      - title: Tembo
+        description: Database tool 
+        url: https://cloud.tembo.io/
+        icon: favicon
+        target: newtab
+
   - name: SEO & Marketing Tools
     icon: fa fa-chart-line
     items:
