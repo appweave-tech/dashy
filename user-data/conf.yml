@@ -143,8 +143,26 @@ sections:
         target: newtab
 
       - title: Tembo
-        description: Database tool 
+        description: Database tool PostGreSQL
         url: https://cloud.tembo.io/
+        icon: favicon
+        target: newtab
+
+      - title: Tembo
+        description: Database tool Redis
+        url: https://console.upstash.com/login/
+        icon: favicon
+        target: newtab
+
+      - title: Allure
+        description: Allure Reporting UI
+        url: https://allure.appweave.tech
+        icon: favicon
+        target: newtab
+
+      - title: Allure Service
+        description: Allure Reportin Service
+        url: https://allure-service.appweave.tech
         icon: favicon
         target: newtab
 
