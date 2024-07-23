@@ -94,6 +94,12 @@ sections:
   - name: Design, Development and Deployment
     icon: fa fa-code-branch
     items:
+      - title: Outline
+        description: AppWeave Docs
+        url: https://docs.appweave.tech
+        icon: favicon
+        target: newtab
+      
       - title: Figma
         description: UI/UX tool 
         url: https://www.figma.com/files/team/1370119807297205158
