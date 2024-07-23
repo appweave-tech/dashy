@@ -148,7 +148,7 @@ sections:
         icon: favicon
         target: newtab
 
-      - title: Tembo
+      - title: Upstash
         description: Database tool Redis
         url: https://console.upstash.com/login/
         icon: favicon
