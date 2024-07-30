@@ -172,6 +172,12 @@ sections:
         icon: favicon
         target: newtab
 
+      - title: Grafana
+        description: Monitoring Dashboard
+        url: https://appweave.grafana.net/
+        icon: favicon
+        target: newtab
+
   - name: SEO & Marketing Tools
     icon: fa fa-chart-line
     items:
