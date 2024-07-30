@@ -67,15 +67,15 @@ sections:
         icon: https://alchetron.com/cdn/orangehrm-5814bc22-9fe0-4ec3-a6df-a7a27fa964f-resize-750.png
         target: newtab
 
-      - title: Osvauld
-        description: Password Manager
-        url: https://chromewebstore.google.com/detail/osvauld/jjlmehbdndojkfglfimhldnbpdhjphfi
-        icon: https://lh3.googleusercontent.com/34d4iKCcZeMx2UqQ0tjoInmO7udtmYfq-QJ11KxXC7ePgX5a3_cuJFAwIhqpBDrzow6Tej44JH4jMI0nusRFAynf=s60
-        target: newtab
-
       - title: VaultWarden
         description: Password Manager
         url: https://vaultwarden.appweave.tech/#/login
+        icon: favicon
+        target: newtab
+
+      - title: VaultWarden Backup
+        description: Password Manager
+        url: https://vaultwarden-backup.appweave.tech/#/login
         icon: favicon
         target: newtab
 
@@ -151,6 +151,12 @@ sections:
       - title: Tembo
         description: Database tool PostGreSQL
         url: https://cloud.tembo.io/
+        icon: favicon
+        target: newtab
+
+      - title: Koyeb
+        description: PaaS
+        url: https://app.koyeb.com/
         icon: favicon
         target: newtab
 
